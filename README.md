@@ -1,6 +1,7 @@
 # erl_split
 
 Split a list to list of lists (with same length).
+
 Two functions are provided
    a) split_equal_slow (which uses lists:split)
    b) split_equal_fast (one which tries to replicate the code of lists:split, except for the case when there are uneven entries in the last split)
@@ -28,5 +29,6 @@ Eshell V8.1  (abort with ^G)
   [21,22,23,24,25,26,27,28,29,30],
   [31,32,33,34,35,36,37,38,39,40],
   [...]|...]}
+
 
 
