@@ -1,4 +1,5 @@
 # erl_split
+
 Split a list to list of lists (with same length).
 Two functions are provided
 a) split_equal_slow (which uses lists:split)
