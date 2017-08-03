@@ -5,8 +5,8 @@ a) split_equal_slow (which uses lists:split)
 b) split_equal_fast (one which tries to replicate the code of lists:split, except for the case when there are uneven entries in the last split)
 
 === Run =====
-Erlang/OTP 19 [erts-8.1] [source] [64-bit] [async-threads:10] [kernel-poll:false]
 
+Erlang/OTP 19 [erts-8.1] [source] [64-bit] [async-threads:10] [kernel-poll:false]
 Eshell V8.1  (abort with ^G)
 1> c(split).
 {ok,split}
