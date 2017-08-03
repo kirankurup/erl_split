@@ -9,10 +9,10 @@ Two functions are provided
 === Run =====
 
 Erlang/OTP 19 [erts-8.1] [source] [64-bit] [async-threads:10] [kernel-poll:false]
-
 Eshell V8.1  (abort with ^G)
+
 1> c(split).
-{ok,split}
+ {ok,split}
 
 2> timer:tc(split, split_equal_slow, [lists:seq(1, 10000), 10]).
 {7508,
